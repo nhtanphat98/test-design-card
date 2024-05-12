@@ -32,6 +32,7 @@ body{
     left: 20px;
     top: 15px;
     cursor: pointer;
+    z-index: 1;
 }
 .card_cart{
     left: unset;
@@ -43,6 +44,7 @@ body{
     width: 80%;
     height: 200px;
     padding-left: 50px;
+    z-index: 0;
 }
 
 .card_img img {
@@ -139,7 +141,7 @@ body{
 .card:hover .card_size, .card:hover .card_color, .card:hover .card_action {
     visibility: visible;
     opacity: 100;
-    transition-delay: 0.2s;
+    transition-delay: 0.2   s;
 }
 
 .card:hover .card_size {
